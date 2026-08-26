@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Papermoon | Photocards, Polaroids e Papelaria Personalizada</title>
+<meta name="description" content="Papelaria personalizada fanmade para colecionadores: photocards, polaroids e kits sob encomenda, feitos do jeito que você imaginou. Envio para todo o Brasil.">
+<meta name="theme-color" content="#241C31">
+<meta name="robots" content="index, follow">
+<!-- TODO: confirmar domínio final e preencher <link rel="canonical"> + og:url -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Loja Papermoon">
+<meta property="og:title" content="Papermoon | Photocards, Polaroids e Papelaria Personalizada">
+<meta property="og:description" content="Papelaria personalizada fanmade para colecionadores: photocards, polaroids e kits sob encomenda. Envio para todo o Brasil.">
+<meta property="og:locale" content="pt_BR">
+<!-- TODO: adicionar og:image apontando para images/brand/og-cover.jpg (1200x630) quando a arte estiver disponível -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Papermoon | Photocards, Polaroids e Papelaria Personalizada">
+<meta name="twitter:description" content="Papelaria personalizada fanmade para colecionadores. Envio para todo o Brasil.">
+<!-- TODO: favicon real da marca (images/brand/) -->
+<link rel="icon" href="data:,">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Manrope:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Loja Papermoon",
+  "description": "Papelaria personalizada fanmade para colecionadores: photocards, polaroids e kits sob encomenda.",
+  "areaServed": "BR",
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+55-15-99168-6052",
+    "contactType": "customer service",
+    "areaServed": "BR",
+    "availableLanguage": "Portuguese"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Os produtos são personalizados?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim. Cada peça é pensada com você, a partir da sua ideia, referência ou fandom favorito." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como solicito um orçamento?",
+      "acceptedAnswer": { "@type": "Answer", "text": "É só chamar no WhatsApp e contar o que você tem em mente. A gente responde com todos os detalhes." }
+    },
+    {
+      "@type": "Question",
+      "name": "Vocês enviam para todo o Brasil?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, enviamos para todo o país." }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso pedir algo sob encomenda?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Sim, a maioria das nossas peças é feita sob encomenda, especialmente para você." }
+    },
+    {
+      "@type": "Question",
+      "name": "Posso enviar uma referência?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Pode sim. Fotos, prints, links ou só uma ideia solta — quanto mais você compartilhar, mais fácil fica de acertar." }
+    },
+    {
+      "@type": "Question",
+      "name": "Como funciona o pedido?",
+      "acceptedAnswer": { "@type": "Answer", "text": "Você manda sua ideia pelo WhatsApp, a gente conversa sobre os detalhes, monta o orçamento e, combinado tudo, coloca sua peça em produção." }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+<!-- Icon sprite -->
+<svg class="visually-hidden" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="icon-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M3 6h18M3 12h18M3 18h18"/></symbol>
+    <symbol id="icon-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="icon-arrow-right" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="icon-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></symbol>
+    <symbol id="icon-truck" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M1 3h15v13H1zM16 8h4l3 3v5h-7V8zM5.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5zM18.5 21a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></symbol>
+    <symbol id="icon-package" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 8l-9-5-9 5 9 5 9-5zM3 8v8l9 5 9-5V8M12 13v8"/></symbol>
+    <symbol id="icon-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></symbol>
+    <symbol id="icon-plus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="icon-camera" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></symbol>
+  </defs>
+</svg>
+
+<!-- ==========================================================================
+     Header
+     ========================================================================== -->
+<header class="site-header">
+  <div class="wrap">
+    <a href="#topo" class="brand">Paper<span class="brand-mark">moon</span></a>
+
+    <nav class="nav-desktop" aria-label="Navegação principal">
+      <ul>
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#personalizacao">Personalização</a></li>
+        <li><a href="#como-funciona">Como funciona</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+
+    <div class="header-actions">
+      <a class="btn btn-primary" data-wa="geral" data-wa-location="header" href="#">
+        Solicitar orçamento
+        <svg width="18" height="18" aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-mobile" aria-label="Abrir menu">
+        <svg class="icon-open" width="20" height="20" aria-hidden="true"><use href="#icon-menu"/></svg>
+        <svg class="icon-close" width="20" height="20" aria-hidden="true"><use href="#icon-close"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <nav id="nav-mobile" class="nav-mobile" aria-label="Navegação mobile">
+    <ul>
+      <li><a href="#produtos">Produtos</a></li>
+      <li><a href="#personalizacao">Personalização</a></li>
+      <li><a href="#como-funciona">Como funciona</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ul>
+    <div class="nav-mobile-footer">
+      <a class="btn btn-gold" data-wa="geral" data-wa-location="menu-mobile" href="#">
+        Falar no WhatsApp
+        <svg width="18" height="18" aria-hidden="true"><use href="#icon-chat"/></svg>
+      </a>
+      <p>Atendimento para todo o Brasil</p>
+    </div>
+  </nav>
+</header>
+
+<main id="conteudo">
+
+  <!-- ==========================================================================
+       Hero
+       ========================================================================== -->
+  <section id="topo" class="hero">
+    <div class="wrap">
+      <div class="hero-copy">
+        <p class="hero-kicker">Papelaria colecionável, feita pra fã de verdade</p>
+        <h1>Seu fandom merece um cantinho só dele.</h1>
+        <p class="hero-sub">Photocards, polaroids e kits personalizados, feitos sob encomenda pra quem leva o fandom a sério. Você manda a ideia, a gente transforma em peça de colecionador.</p>
+        <div class="hero-ctas">
+          <a class="btn btn-primary" data-wa="geral" data-wa-location="hero" href="#">
+            Solicitar orçamento
+            <svg width="18" height="18" aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+          </a>
+          <a class="btn btn-ghost" href="#produtos">Explorar produtos</a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="num">Nº 001</span><span class="label">Feito sob encomenda</span></div>
+          <div><span class="num">Envio</span><span class="label">Para todo o Brasil</span></div>
+          <div><span class="num">Sua ideia</span><span class="label">Sua peça, do seu jeito</span></div>
+        </div>
+      </div>
+
+      <div class="hero-wall" aria-hidden="true">
+        <div class="wall-backdrop"></div>
+        <span class="washi washi-1"></span>
+        <span class="washi washi-2"></span>
+
+        <div class="photocard pc-1">
+          <div class="frame">
+            <!-- TODO: substituir por <img src="images/products/photocard-01.jpg" alt="..."> -->
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Photocard<br>do cliente</span>
+            </div>
+          </div>
+          <div class="card-label"><span class="catalog-tag">Nº 014</span><span class="title">Photocard</span></div>
+        </div>
+
+        <div class="photocard pc-2">
+          <div class="frame">
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Polaroid<br>do cliente</span>
+            </div>
+          </div>
+          <div class="card-label"><span class="catalog-tag">Nº 022</span><span class="title">Polaroid</span></div>
+        </div>
+
+        <div class="photocard pc-3">
+          <div class="frame">
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Kit<br>Surpresa</span>
+            </div>
+          </div>
+          <div class="card-label"><span class="catalog-tag">Nº 007</span><span class="title">Kit</span></div>
+        </div>
+
+        <div class="photocard pc-4">
+          <div class="frame">
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Photocard<br>do cliente</span>
+            </div>
+          </div>
+          <div class="card-label"><span class="catalog-tag">Nº 031</span><span class="title">Photocard</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Trust strip -->
+  <section class="trust-strip" aria-label="Diferenciais">
+    <ul class="wrap">
+      <li><svg aria-hidden="true"><use href="#icon-truck"/></svg>Envio para todo o Brasil</li>
+      <li><svg aria-hidden="true"><use href="#icon-package"/></svg>Peças sob encomenda</li>
+      <li><svg aria-hidden="true"><use href="#icon-chat"/></svg>Atendimento direto no WhatsApp</li>
+    </ul>
+  </section>
+
+  <!-- ==========================================================================
+       Produtos
+       ========================================================================== -->
+  <section id="produtos" class="section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Catálogo</p>
+        <h2 class="section-heading">Três formas de guardar o que você ama</h2>
+        <p class="section-lede">Cada peça nasce de uma ideia sua — a gente só dá o acabamento de colecionador.</p>
+      </div>
+
+      <div class="product-grid" data-reveal-group>
+        <article class="product-card" data-reveal style="--i:0">
+          <div class="product-media">
+            <span class="catalog-tag">Nº 001 — Edição personalizada</span>
+            <!-- TODO: substituir por <img src="images/products/photocards.jpg" alt="Photocards personalizados Papermoon"> -->
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Foto do produto — Photocards</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <h3>Photocards</h3>
+            <p>Fotos do seu bias, do seu grupo ou da sua OTP, impressas em cartões de colecionador do jeito que você imaginou.</p>
+            <a class="product-cta" data-wa="photocards" data-wa-location="products" href="#">
+              Quero meus photocards
+              <svg aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card" data-reveal style="--i:1">
+          <div class="product-media">
+            <span class="catalog-tag">Nº 002 — Peça única</span>
+            <!-- TODO: substituir por <img src="images/products/kit-surpresa.jpg" alt="Kit Surpresa Papermoon"> -->
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Foto do produto — Kit Surpresa</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <h3>Kit Surpresa</h3>
+            <p>Uma seleção surpresa montada especialmente pra você, pensada pro seu fandom e pro que você mais coleciona.</p>
+            <a class="product-cta" data-wa="kit" data-wa-location="products" href="#">
+              Quero saber mais
+              <svg aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="product-card" data-reveal style="--i:2">
+          <div class="product-media">
+            <span class="catalog-tag">Nº 003 — Edição personalizada</span>
+            <!-- TODO: substituir por <img src="images/products/polaroids.jpg" alt="Polaroids personalizadas Papermoon"> -->
+            <div class="placeholder-frame">
+              <svg width="26" height="26"><use href="#icon-camera"/></svg>
+              <span>Foto do produto — Polaroids</span>
+            </div>
+          </div>
+          <div class="product-body">
+            <h3>Polaroids</h3>
+            <p>Momentos do seu fandom em formato polaroid, prontas pra colar no mural, no diário ou onde sua coleção merece.</p>
+            <a class="product-cta" data-wa="polaroids" data-wa-location="products" href="#">
+              Quero minhas polaroids
+              <svg aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+            </a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Pausa emocional
+       ========================================================================== -->
+  <section class="section pause">
+    <div class="wrap">
+      <div data-reveal>
+        <p class="eyebrow">Mais que papel</p>
+        <h2>Não é só papelaria.</h2>
+        <p class="pause-body">É o pôster que você não achou pronto. A foto que só existe na sua cabeça. O jeito de carregar seu fandom com você — na bolsa, no mural, na estante. A gente transforma isso em peça de colecionador, feita pra durar.</p>
+      </div>
+      <div class="pause-media" data-reveal>
+        <!-- TODO: substituir por <img src="images/gallery/emocional.jpg" alt="..."> -->
+        <div class="placeholder-frame">
+          <svg width="26" height="26"><use href="#icon-camera"/></svg>
+          <span>Foto do processo<br>ou produto em uso</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Personalização
+       ========================================================================== -->
+  <section id="personalizacao" class="section personalize">
+    <div class="wrap">
+      <div class="personalize-media" data-reveal>
+        <!-- TODO: substituir por <img src="images/gallery/personalizacao.jpg" alt="..."> -->
+        <div class="placeholder-frame">
+          <svg width="26" height="26"><use href="#icon-camera"/></svg>
+          <span>Foto do processo<br>de personalização</span>
+        </div>
+      </div>
+      <div data-reveal>
+        <p class="eyebrow">Personalização</p>
+        <h2 class="section-heading">Sua ideia, sua peça.</h2>
+        <p class="section-lede" style="margin-top:1.25rem">Manda sua ideia, sua referência ou aquela foto que você guarda com carinho. A gente conversa sobre cada detalhe antes de colocar a mão na massa.</p>
+        <ul class="checklist">
+          <li><svg aria-hidden="true"><use href="#icon-check"/></svg>Envie sua ideia ou referência pelo WhatsApp</li>
+          <li><svg aria-hidden="true"><use href="#icon-check"/></svg>Conversamos sobre cada detalhe antes da produção</li>
+          <li><svg aria-hidden="true"><use href="#icon-check"/></svg>Sua peça é feita sob encomenda, especialmente pra você</li>
+        </ul>
+        <a class="btn btn-primary" style="margin-top:2rem" data-wa="personalizacao" data-wa-location="personalizacao" href="#">
+          Quero personalizar
+          <svg width="18" height="18" aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Como funciona
+       ========================================================================== -->
+  <section id="como-funciona" class="section section-alt">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Como funciona</p>
+        <h2 class="section-heading">Do seu jeito, em quatro passos</h2>
+      </div>
+
+      <div class="steps-wrap" style="position:relative">
+        <span class="steps-progress" aria-hidden="true"><span></span></span>
+        <ol class="steps" data-reveal-group>
+          <li class="step" data-reveal style="--i:0">
+            <span class="step-num">01</span>
+            <div><h3>Conte sua ideia</h3><p>Manda sua referência, sua ideia ou só a inspiração pelo WhatsApp.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:1">
+            <span class="step-num">02</span>
+            <div><h3>Solicite seu orçamento</h3><p>A gente entende o que você quer e monta um orçamento sob medida.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:2">
+            <span class="step-num">03</span>
+            <div><h3>Combine os detalhes</h3><p>Ajustamos juntos cada detalhe antes de começar a produção.</p></div>
+          </li>
+          <li class="step" data-reveal style="--i:3">
+            <span class="step-num">04</span>
+            <div><h3>Receba sua encomenda</h3><p>Sua peça é produzida com carinho e enviada pra todo o Brasil.</p></div>
+          </li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       Galeria
+       ========================================================================== -->
+  <section id="galeria" class="section">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Galeria</p>
+        <h2 class="section-heading">Um pedaço da coleção</h2>
+        <p class="section-lede">Um recorte do que já saiu daqui — cada peça, sob encomenda, pra um fandom diferente.</p>
+      </div>
+
+      <div class="gallery-grid" data-reveal-group>
+        <div class="gallery-item tall" data-reveal style="--i:0">
+          <button class="gallery-trigger" data-caption="Nº 014 — Photocards" type="button">
+            <!-- TODO: images/gallery/01.jpg -->
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 01</span></div>
+          </button>
+          <span class="catalog-tag">Nº 014 — Photocards</span>
+        </div>
+        <div class="gallery-item" data-reveal style="--i:1">
+          <button class="gallery-trigger" data-caption="Nº 022 — Kit Surpresa" type="button">
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 02</span></div>
+          </button>
+          <span class="catalog-tag">Nº 022 — Kit Surpresa</span>
+        </div>
+        <div class="gallery-item" data-reveal style="--i:2">
+          <button class="gallery-trigger" data-caption="Nº 031 — Polaroids" type="button">
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 03</span></div>
+          </button>
+          <span class="catalog-tag">Nº 031 — Polaroids</span>
+        </div>
+        <div class="gallery-item wide" data-reveal style="--i:3">
+          <button class="gallery-trigger" data-caption="Nº 040 — Personalização" type="button">
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 04</span></div>
+          </button>
+          <span class="catalog-tag">Nº 040 — Personalização</span>
+        </div>
+        <div class="gallery-item" data-reveal style="--i:4">
+          <button class="gallery-trigger" data-caption="Nº 052 — Photocards" type="button">
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 05</span></div>
+          </button>
+          <span class="catalog-tag">Nº 052 — Photocards</span>
+        </div>
+        <div class="gallery-item" data-reveal style="--i:5">
+          <button class="gallery-trigger" data-caption="Nº 061 — Polaroids" type="button">
+            <div class="placeholder-frame"><svg width="24" height="24"><use href="#icon-camera"/></svg><span>Galeria 06</span></div>
+          </button>
+          <span class="catalog-tag">Nº 061 — Polaroids</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ
+       ========================================================================== -->
+  <section id="faq" class="section section-alt">
+    <div class="wrap">
+      <div class="section-head" data-reveal>
+        <p class="eyebrow">Dúvidas</p>
+        <h2 class="section-heading">Perguntas frequentes</h2>
+      </div>
+
+      <div class="faq-list" data-reveal>
+        <details class="faq-item">
+          <summary>Os produtos são personalizados?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">Sim. Cada peça é pensada com você, a partir da sua ideia, referência ou fandom favorito.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como solicito um orçamento?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">É só chamar no WhatsApp e contar o que você tem em mente. A gente responde com todos os detalhes.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Vocês enviam para todo o Brasil?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">Sim, enviamos para todo o país.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso pedir algo sob encomenda?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">Sim, a maioria das nossas peças é feita sob encomenda, especialmente para você.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Posso enviar uma referência?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">Pode sim. Fotos, prints, links ou só uma ideia solta — quanto mais você compartilhar, mais fácil fica de acertar.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Como funciona o pedido?<span class="icon"><svg width="14" height="14"><use href="#icon-plus"/></svg></span></summary>
+          <p class="faq-answer">Você manda sua ideia pelo WhatsApp, a gente conversa sobre os detalhes, monta o orçamento e, combinado tudo, coloca sua peça em produção.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CTA final
+       ========================================================================== -->
+  <section class="section final-cta">
+    <div class="wrap" data-reveal>
+      <p class="eyebrow">Comece agora</p>
+      <h2>Sua coleção pode começar com uma ideia.</h2>
+      <p>Manda uma mensagem, conta o que você tem em mente e deixa a gente cuidar do resto.</p>
+      <div class="hero-ctas">
+        <a class="btn btn-on-plum" data-wa="geral" data-wa-location="final-cta" href="#">
+          Solicitar orçamento
+          <svg width="18" height="18" aria-hidden="true"><use href="#icon-arrow-right"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ==========================================================================
+     Footer
+     ========================================================================== -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="#topo" class="brand">Paper<span class="brand-mark">moon</span></a>
+        <p>Papelaria personalizada fanmade, feita sob encomenda pra fã de verdade.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navegação</h4>
+        <ul>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#personalizacao">Personalização</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Produtos</h4>
+        <ul>
+          <li><span>Photocards</span></li>
+          <li><span>Kit Surpresa</span></li>
+          <li><span>Polaroids</span></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <ul>
+          <li><a data-wa="geral" data-wa-location="footer" href="#">+55 15 99168-6052</a></li>
+          <li><span>Envio para todo o Brasil</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span data-year>2026</span> Loja Papermoon. Feito sob encomenda, com carinho.</span>
+      <span>Papelaria fanmade — não afiliada a artistas, grupos ou estúdios.</span>
+    </div>
+  </div>
+</footer>
+
+<!-- Mobile sticky WhatsApp CTA -->
+<div class="mobile-cta">
+  <a class="btn btn-primary" data-wa="geral" data-wa-location="mobile-sticky" href="#">
+    Falar no WhatsApp
+    <svg width="18" height="18" aria-hidden="true"><use href="#icon-chat"/></svg>
+  </a>
+</div>
+
+<!-- Lightbox -->
+<div class="lightbox" role="dialog" aria-modal="true" aria-label="Visualização da imagem">
+  <button class="lightbox-close" aria-label="Fechar"><svg width="20" height="20"><use href="#icon-close"/></svg></button>
+  <img src="" alt="">
+  <p class="lightbox-caption"></p>
+</div>
+
+<script src="assets/js/config.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
